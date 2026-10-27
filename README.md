@@ -13,9 +13,9 @@ Model B deliberately does **not** duplicate Date on `main`. `package.yml`
 imports Model A at an immutable commit so Model A remains the owner of the
 conformed dimension.
 
-Before publishing the first revision, replace the forty-zero value in
-`package.yml` with the full commit SHA of the published Model A `main` branch.
-Keep package pins immutable and advance them through normal pull requests.
+`package.yml` pins Model A to the full commit SHA that this revision was tested
+against. Keep package pins immutable and advance them through normal pull
+requests.
 
 ## Branches
 
