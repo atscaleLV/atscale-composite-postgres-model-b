@@ -1,0 +1,26 @@
+unique_name: composite_postgres_model_b_control
+object_type: catalog
+label: Composite PostgreSQL Lab - Model B Control
+version: 1.8
+description: >-
+  Budget component model using the pg_composite_control data warehouse and
+  the canonical Date dimension packaged from Model A.
+aggressive_agg_promotion: false
+build_speculative_aggs: false
+dataset_properties:
+  lab_dim_date_control:
+    allow_aggregates: true
+    allow_local_aggs: true
+    allow_peer_aggs: true
+    allow_preferred_aggs: false
+  lab_fact_sales_control:
+    allow_aggregates: true
+    allow_local_aggs: true
+    allow_peer_aggs: true
+    allow_preferred_aggs: false
+  lab_fact_budget_control:
+    allow_aggregates: true
+    allow_local_aggs: true
+    allow_peer_aggs: true
+    allow_preferred_aggs: false
+
