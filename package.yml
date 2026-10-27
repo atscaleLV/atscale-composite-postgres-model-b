@@ -1,8 +1,0 @@
-version: 1
-packages:
-  - name: atscale_composite_postgres_model_a
-    url: https://github.com/atscaleLV/atscale-composite-postgres-model-a.git
-    branch: main
-    # REPLACE_WITH_MODEL_A_FULL_COMMIT_SHA_BEFORE_PUBLISHING
-    version: commit:0000000000000000000000000000000000000000
-

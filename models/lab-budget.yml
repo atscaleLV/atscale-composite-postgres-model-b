@@ -1,18 +1,18 @@
-unique_name: lab_budget_control
+unique_name: lab_budget_isolated
 object_type: model
 label: Lab Budget
 description: >-
-  Budget component on pg_composite_control using Model A's packaged Date.
+  Standalone Budget component whose fact and Date both use pg_model_b.
 relationships:
-  - unique_name: lab_budget_to_date_control
+  - unique_name: lab_budget_to_date_b_isolated
     from:
-      dataset: lab_fact_budget_control
+      dataset: lab_fact_budget_b_isolated
       join_columns:
         - date_key
     to:
-      dimension: Lab Date Control
+      dimension: Lab Date B Isolated
       level: Date
 metrics:
-  - unique_name: m_budget_amount_sum_control
+  - unique_name: m_budget_amount_sum_b_isolated
     folder: Lab Measures
 

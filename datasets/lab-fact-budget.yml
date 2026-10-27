@@ -1,7 +1,7 @@
-unique_name: lab_fact_budget_control
+unique_name: lab_fact_budget_b_isolated
 object_type: dataset
 label: Lab Budget Fact
-connection_id: lab_pg_b_source_control
+connection_id: lab_pg_b_source_isolated
 table: fact_budget
 columns:
   - name: budget_row_id

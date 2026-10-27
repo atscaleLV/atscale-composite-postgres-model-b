@@ -1,0 +1,7 @@
+unique_name: lab_pg_b_shared_isolated
+object_type: connection
+label: Lab PostgreSQL B - Shared Date
+as_connection: pg_model_b
+database: atscale_lab
+schema: shared
+

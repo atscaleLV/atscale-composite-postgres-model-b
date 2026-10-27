@@ -1,0 +1,17 @@
+unique_name: lab_dim_date_b_isolated
+object_type: dataset
+label: Lab Date B
+connection_id: lab_pg_b_shared_isolated
+table: dim_date
+columns:
+  - name: date_key
+    data_type: int
+  - name: date_day
+    data_type: date
+  - name: month_start
+    data_type: date
+  - name: month_name
+    data_type: string
+  - name: year_number
+    data_type: int
+
